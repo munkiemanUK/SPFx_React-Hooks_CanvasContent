@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "react-canvas-content-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/reactCanvasContent/ReactCanvasContentWebPart.js",
+          "manifest": "./src/webparts/reactCanvasContent/ReactCanvasContentWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ReactCanvasContentWebPartStrings": "lib/webparts/reactCanvasContent/loc/{locale}.js"
+  }
+}

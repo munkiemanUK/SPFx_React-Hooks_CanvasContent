@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "react-canvas-content-client-side-solution",
+    "id": "c512826b-6cca-4a12-a193-1dfe3ac3df83",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "React_CanvasContent description"
+      },
+      "longDescription": {
+        "default": "React_CanvasContent description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "react-canvas-content Feature",
+        "description": "The feature that activates elements of the react-canvas-content solution.",
+        "id": "34f257e8-1a8b-419e-b207-1aa1a315007f",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/react-canvas-content.sppkg"
+  }
+}
